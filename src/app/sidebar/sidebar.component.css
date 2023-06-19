@@ -1,0 +1,13 @@
+aside {
+    height:calc( 100vh - var(--header-height));
+    width:var( --sidebar-width);
+    background-color: rgb(203, 129, 240);
+    position: fixed;
+}
+
+aside p {
+    margin: 0;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
